@@ -33,7 +33,7 @@ double calculatePerimeter(double diameter){
 
 int main(){
 
-    int diameter; int quit;
+    double diameter; int quit;
 
     while (1){
 
@@ -41,7 +41,7 @@ int main(){
         printf("\n");
 
         printf("Type the value of the circle diameter: ");
-        scanf("%d", &diameter);
+        scanf("%lf", &diameter);
         printf("\n");
 
         calculateArea(diameter);
